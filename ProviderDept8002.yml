@@ -3,6 +3,8 @@ server:
 
 spring:
   profiles: dev
+  application:
+    name: MicroServiceCloud-Dept
     
 ---
 server:
@@ -10,3 +12,5 @@ server:
 
 spring:
   profiles: test
+  application: 
+    name: MicroServiceCloud-Dept
