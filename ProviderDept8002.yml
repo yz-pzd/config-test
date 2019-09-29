@@ -3,8 +3,6 @@ server:
 
 spring:
   profiles: dev
-  application:
-    name: ProviderDept8002-dev
     
 ---
 server:
@@ -12,5 +10,3 @@ server:
 
 spring:
   profiles: test
-  application: 
-    name: ProviderDept8002-test
