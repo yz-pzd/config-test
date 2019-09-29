@@ -8,5 +8,5 @@ spring:
 spring:
   port: 8202
   profiles: test
-  application:
+  application: 
     name: ProviderDept8002-test
