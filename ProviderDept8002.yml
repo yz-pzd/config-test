@@ -1,0 +1,12 @@
+spring:
+  port: 8201
+  profiles: dev
+  application:
+    name: ProviderDept8002-dev
+    
+---
+spring:
+  port: 8202
+  profiles: test
+  application:
+    name: ProviderDept8002-test
